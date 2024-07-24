@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=loanapp'
+      - 'POSTGRES_PASSWORD=cilacap'
+      - 'POSTGRES_USER=postgres'
+    ports:
+      - '5432'
